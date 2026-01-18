@@ -1,0 +1,204 @@
+   body {
+       margin: 0;
+       font-family: Arial, Helvetica, sans-serif;
+       color: #333;
+   }
+
+   header {
+       background-image: url('media/imagenes/portada.png');
+       background-size: cover;
+       background-position: top center;
+       /* siempre muestra la parte superior */
+       height: 100vh;
+       /* ocupa toda la ventana */
+       display: flex;
+       flex-direction: column;
+       /*justify-content: flex-start; /* contenido desde arriba */
+       align-items: center;
+       text-align: center;
+       color: white;
+       padding-top: 80px;
+       /* un poco de espacio para que no quede pegado a la navbar */
+       box-sizing: border-box;
+       justify-content: flex-end;
+       /* contenido hacia la parte inferior */
+   }
+
+
+   video {
+       display: block;
+       margin: 20px auto;
+       /* centra el video automáticamente */
+       max-width: 100%;
+       height: auto;
+   }
+
+   section {
+       text-align: center;
+   }
+
+   h2 {
+       text-align: center;
+   }
+
+   .tarjeta img {
+       height: 200px;
+       object-fit: cover;
+   }
+
+
+
+
+   /* Estilo personalizado de navbar */
+   .custom-navbar {
+       background-color: rgba(211, 47, 47, 0.85) !important;
+       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+       backdrop-filter: blur(8px);
+       padding: 0.5rem 1rem;
+   }
+
+   .custom-navbar .navbar-brand {
+       color: white;
+       font-weight: bold;
+       font-size: 1.8rem;
+   }
+
+   .custom-navbar .nav-link {
+       color: white !important;
+       font-weight: 500;
+       position: relative;
+   }
+
+   .custom-navbar .nav-link::after {
+       content: '';
+       position: absolute;
+       width: 0%;
+       height: 2px;
+       bottom: -4px;
+       left: 0;
+       background-color: #fff;
+       transition: width 0.3s;
+   }
+
+   .custom-navbar .nav-link:hover::after {
+       width: 100%;
+   }
+
+   .custom-navbar .nav-link:hover {
+       color: #ffeb3b !important;
+   }
+
+   .btn-custom {
+       display: inline-block;
+       /* permite centrarlo como elemento en línea */
+       margin: 20px auto 0 auto;
+       /* margen arriba y automático a los lados */
+       background: #d32f2f;
+       padding: 12px 25px;
+       border-radius: 5px;
+       color: #fff;
+       font-weight: bold;
+       text-decoration: none;
+       text-align: center;
+       /* asegura que el texto esté centrado */
+   }
+
+   .contenedor {
+       padding: 60px 15%;
+   }
+
+   .seccion {
+       margin-bottom: 60px;
+   }
+
+   h2 {
+       color: #b71c1c;
+       margin-bottom: 10px;
+   }
+
+   .tarjetas {
+       display: flex;
+       gap: 30px;
+       flex-wrap: wrap;
+   }
+
+   .tarjeta {
+       width: 30%;
+       background: #fafafa;
+       border-radius: 8px;
+       padding: 10px;
+       box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+   }
+
+   .tarjeta img {
+       width: 100%;
+       border-radius: 8px;
+   }
+
+   /* Estilo para todas las imágenes dentro de figure */
+
+   figure img {
+       width: 100%;
+       max-width: 400px;
+       /* todas tendrán el mismo ancho máximo */
+       height: 250px;
+       /* altura fija */
+       object-fit: cover;
+       /* recorta suavemente para que todas queden iguales */
+       border-radius: 8px;
+       display: block;
+       margin: 0 auto;
+   }
+
+
+
+
+   footer {
+       background: #333;
+       color: white;
+       padding: 25px;
+       text-align: center;
+   }
+
+   @media (max-width: 900px) {
+       .tarjeta {
+           width: 100%;
+       }
+   }
+
+   /* Formulario al estilo del index, con fondo ligero y bordes redondeados */
+   .formulario-contacto {
+       background: #fafafa;
+       padding: 20px;
+       border-radius: 8px;
+       box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+       max-width: 700px;
+       margin: 0 auto;
+   }
+
+   /* Centrar el texto de la introducción */
+   .seccion.text-center p {
+       text-align: center;
+       line-height: 1.6;
+       color: #333;
+   }
+
+   .mapa-container {
+       display: flex;
+       justify-content: center;
+       /* centra horizontalmente */
+       margin: 40px 0;
+       /* espacio arriba y abajo */
+   }
+
+   .mapa-container iframe {
+       width: 80%;
+       /* ocupa el 80% del ancho de la sección */
+       max-width: 600px;
+       /* ancho máximo para pantallas grandes */
+       height: 300px;
+       /* altura fija */
+       border: 0;
+       border-radius: 8px;
+       /* opcional, bordes redondeados */
+   }

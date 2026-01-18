@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Molinos de Alcázar de San Juan– Alcázar de San Juan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+
+    <!-- HERO / PORTADA -->
+    <header>
+        <!-- Aquí podrías poner una imagen de portada o un slider -->
+        <h1>Molinos de Alcázar de San Juan – Patrimonio histórico y cultural</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Alcázar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="molinos.html">Molinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="casa.html">Casa del Hidalgo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="parque.html">Parque Alces</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="contenedor" id="explora">
+        <section>
+            <h2>Vídeo de presentación</h2>
+            <video controls autoplay muted loop poster="imagenes/portada.png" width="640">
+                <source
+                    src="media/videos/_Descubre_los_molinos_de_viento_de_Alc_zar_de_San_Juan_la_cuna_de_Cervantes_480P.mp4"
+                    type="video/mp4">
+                <track src="media/videos/descubremolinos.vtt" kind="subtitles" srclang="es" label="Español" default>
+                Tu navegador no soporta el elemento <code>video</code>.
+            </video>
+        </section>
+
+        <section>
+            <h2>Audioguía</h2>
+            <p class="texto-audioguia">
+                Te dejo esta audioguía para que descubras, paso a paso, la historia y los secretos que hacen especial
+                este lugar.
+            </p>
+            <audio controls>
+                <source src="media/audio/Molinos_de_Viento_de_Alc_zar_de_San_Juan_128KBPS.mp4" type="audio/mpeg">
+                Tu navegador no soporta el elemento <code>audio</code>.
+            </audio>
+
+        </section>
+
+        <section>
+            <h2>Descripción</h2>
+            <p>
+                Los molinos de viento de Alcázar de San Juan son uno de los símbolos más reconocidos del
+                patrimonio manchego. Construidos principalmente entre los siglos XVI y XVIII, estos molinos
+                han servido históricamente para moler el trigo de la región y hoy se conservan como monumentos
+                culturales y turísticos. Muchos de ellos aún mantienen su estructura original con sus aspas
+                giratorias y maquinaria interna, ofreciendo a los visitantes una experiencia educativa sobre
+                la tradición agrícola y tecnológica de La Mancha. Además, son un destino ideal para fotografías
+                y paseos al aire libre.
+            </p>
+        </section>
+
+        <div class="seccion">
+            <h2>Imágenes destacadas</h2>
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <img src="media/imagenes/molinos1.jpeg" alt="Molinos de viento en Alcázar de San Juan al atardecer">
+                    <h3>Molinos al atardecer</h3>
+                    <p>Una vista impresionante de los molinos iluminados por el sol poniente, símbolo de La Mancha.</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="media/imagenes/molino_interior.jpg" alt="Molino restaurado mostrando su funcionamiento">
+                    <h3>Molino restaurado</h3>
+                    <p>Molino que conserva su maquinaria y aspas originales, mostrando cómo se molía el trigo.</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="media/imagenes/molino3.jpeg" alt="Panorámica de varios molinos de viento">
+                    <h3>Panorámica de molinos</h3>
+                    <p>Vista general de los molinos, ideal para rutas turísticas y fotografías únicas de la región.</p>
+                </div>
+            </div>
+            <a href="contacto.html" class="btn btn-custom">Quiero saber más</a>
+        </div>
+    </div>
+
+
+    <footer>
+        © 2024 Turismo Alcázar de San Juan – Web promocional creada para proyecto educativo
+    </footer>
+    <!-- Bootstrap JS Bundle con Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

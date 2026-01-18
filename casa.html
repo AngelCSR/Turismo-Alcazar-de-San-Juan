@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Casa del Hidalgo – Alcázar de San Juan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+
+    <!-- HERO / PORTADA -->
+    <header>
+        <h1>Casa del Hidalgo – Patrimonio histórico de Alcázar de San Juan</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Alcázar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="molinos.html">Molinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="casa.html">Casa del Hidalgo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="parque.html">Parque Alces</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="contenedor" id="explora">
+        <section>
+            <h2>Vídeo de presentación</h2>
+            <video controls autoplay muted loop poster="img/casa_hidalgo-1.jpg" width="640">
+                <source
+                    src="media/videos/Mi_voz_en_este_gran_reportaje_de_la_casa_museo_del_Hidalgo_en_Alc_zar_de_San_Juan_480P.mp4"
+                    type="video/mp4">
+                <track src="media/videos/subtHidalgo.vtt" kind="subtitles" srclang="es" label="Español" default>
+                Tu navegador no soporta el elemento <code>video</code>.
+            </video>
+        </section>
+
+        <section>
+            <h2>Audioguía</h2>
+            <p class="texto-audioguia">
+                Te dejo esta audioguía para que descubras, paso a paso, la historia y los secretos que hacen especial
+                este lugar.
+            </p>
+            <audio controls>
+                <source
+                    src="media/audio/Mi_voz_en_este_gran_reportaje_de_la_casa_museo_del_Hidalgo_en_Alc_zar_de_San_Juan_128KBPS.mp4"
+                    type="audio/mpeg">
+                Tu navegador no soporta el elemento <code>audio</code>.
+            </audio>
+        </section>
+
+        <section>
+            <h2>Descripción</h2>
+            <p>
+                La Casa del Hidalgo es una antigua casa solariega del siglo XVI, ubicada en Alcázar de San Juan.
+                Conocida por su arquitectura histórica y su relación con la época de los hidalgos, la casa ofrece
+                a los visitantes una visión del estilo de vida y la cultura de aquellos tiempos. Inspiró incluso a
+                Miguel de Cervantes al crear personajes de sus obras, como Don Quijote. La visita incluye exposiciones
+                de piezas originales de gran valor provenientes de museos importantes, así como recursos audiovisuales
+                e interactivos que permiten experimentar la historia de manera didáctica y entretenida.
+            </p>
+        </section>
+
+        <div class="seccion">
+            <h2>Imágenes destacadas</h2>
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <img src="media/imagenes/casa-fachada-san-juan.jpg" alt="Fachada principal de la Casa del Hidalgo">
+                    <h3>Fachada histórica</h3>
+                    <p>La imponente fachada principal de la Casa del Hidalgo refleja la arquitectura del siglo XVI.</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="media/imagenes/interior.jpeg"
+                        alt="Interior de la Casa del Hidalgo mostrando mobiliario antiguo">
+                    <h3>Interior tradicional</h3>
+                    <p>El interior con mobiliario antiguo y decoración típica de los hidalgos de Alcázar de San Juan.
+                    </p>
+                </div>
+                <div class="tarjeta">
+                    <img src="media/imagenes/patio.jpeg" alt="Patio y jardín de la Casa del Hidalgo">
+                    <h3>Patio y jardín</h3>
+                    <p>Espacios donde se realizaban actividades cotidianas y recreativas, mostrando la vida de antaño.
+                    </p>
+                </div>
+            </div>
+            <a href="contacto.html" class="btn btn-custom">Quiero saber más</a>
+        </div>
+    </div>
+
+
+    <footer>
+        © 2024 Turismo Alcázar de San Juan – Web promocional creada para proyecto educativo
+    </footer>
+    <!-- Bootstrap JS Bundle con Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
